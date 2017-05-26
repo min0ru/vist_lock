@@ -119,3 +119,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# Lock Server Settings
+LOCK_SERV_ADDR = '127.0.0.1'
+LOCK_SERV_PORT = 32001
+LOCK_SERV_CODE = b'DEADBEEF'
