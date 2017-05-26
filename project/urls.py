@@ -20,6 +20,6 @@ from vist_lock import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^$', views.index),
-	url(r'^open/$', views.open),
+    url(r'^$', views.index, name="index"),
+    url(r'^open/$', views.open, name="open"),
 ]
